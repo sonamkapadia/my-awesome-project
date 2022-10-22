@@ -1,0 +1,40 @@
+.search-container {
+  margin: 40px auto;
+}
+
+h1 {
+  color: blue;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  line-height: 5px;
+  padding: 10px 5px;
+}
+
+h2 {
+  color: purple;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  line-height: 0px;
+  padding: 20px 100px;
+}
+
+h3 {
+  color: darkblue;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 0px;
+  padding: 20px 100px;
+  margin: 5px auto;
+}
+
+h4 {
+  color: maroon;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  line-height: 0px;
+  padding: 10px 5px;
+}
+.daily-info {
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}

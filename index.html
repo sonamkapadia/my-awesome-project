@@ -1,12 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
+    <title>Weather Forecast</title>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet"/>
   </head>
-  <body>
-    <h1>Hello Git</h1>
+<body>
+
+      <div class="search-container">
+<input class="btn btn-newyork" type="button" value="New York">
+<input class="btn btn-london" type="button" value="London">
+<input class="btn btn-dubai" type="button" value="Dubai">
+
+
+<form id="search-form">
+  <input class="form-group" type="text" placeholder="Search city" id="search-input" />
+  <button class="search-button" type="submit" value="Search">Search</button>
+  <button id= "button-input" class="btn"></button>
+</form>
+</div>
+
+<div class="row">
+  <div class="current-city" id="city-input">Paris
+  </div>
+    
+    <h2>42°F☀️</h2>
+    <h3>It's Sunny Today!</h3>
+  </div>
+  <h4><p>Last updated:</p>
+  <div class="today-date" id="today-date"> Mon 3 October, 2022 23:00</div></h4>
+  </div>
+
+    <div class="row daily-info">
+			<div class="col-2">🌦️ Tuesday 42°F</div>
+			<div class="col-2">🌦️ Wednesday 44°F</div>
+			<div class="col-2">🌦️ Thursday 41°F</div>
+			<div class="col-2">🌤️ Friday 45°F</div>
+			<div class="col-2">☀️ Saturday 49°F</div>
+			<div class="col-2">☀️ Sunday 48°F</div>
+		</div>
+	</div>
+</div>
+    <script src="src/index.js"></script>
   </body>
 </html>
